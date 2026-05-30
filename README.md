@@ -2,7 +2,7 @@
 
 # 👋 Hi there, I'm Le Minh Kha
 
-**AI Engineer & NLP Researcher | UIT – VNU-HCM | Ho Chi Minh City 🇻🇳**
+**AI Engineer | UIT – VNU-HCM | Ho Chi Minh City 🇻🇳**
 
 [![Profile Views](https://komarev.com/ghpvc/?username=DazKha&color=blueviolet&style=flat)](https://github.com/DazKha)
 
