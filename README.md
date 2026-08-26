@@ -2,36 +2,46 @@
 
 # 👋 Hi there, I'm Le Minh Kha
 
-**AI Engineer | UIT – VNU-HCM | Ho Chi Minh City 🇻🇳**
+**AI Engineer · Agentic Systems · Vietnamese NLP**
 
 </div>
 
+## 🦸🏻‍♂️ About Me
+
+I build reliable AI agents, retrieval and evaluation pipelines, and the application layers that bring them into production.
+My work combines hands-on AI engineering with research in Vietnamese natural language understanding.
+
+Ho Chi Minh City, Vietnam · Computer Science at UIT, VNU-HCM · IELTS 7.0
+
+</div>
+
+## 🧑‍💻 What I Work On
+
+- **Agentic applications:** multi-step workflows, tool orchestration, state management, memory, and structured outputs
+- **RAG and evaluation:** retrieval design, reranking, query expansion, grounded generation, and measurable quality checks
+- **Production AI systems:** FastAPI services, backend integrations, validation, persistence, testing, and deployment
+- **Vietnamese NLP:** joint intent detection and slot filling with PhoBERT-based architectures
+
+## Current Experience
+
+### AI Engineer Intern — Spiraledge
+
+- Built a voice onboarding agent for a consumer fitness platform with **300K+ mobile downloads**, using agent routing, state management, and FastAPI tools to collect user profiles and training preferences through natural conversation.
+- Developed a reusable GenAI-assisted pipeline that migrated **228 multilingual articles**, automating HTML transformation, content enrichment, image refinement, and multilingual text-to-speech while improving validation and production reliability.
+
+
 ---
 
-## 🧑‍💻 About Me
-
-- 🎓 CS student at **UIT – VNU Ho Chi Minh City** · GPA 3.52/4.0 · IELTS 7.0
-- 💼 **AI Engineer Intern @ DigiBird** — building LangGraph agentic systems in production
-- 📄 Co-author of **VSLIM** — accepted at **ACIIDS 2026** (CORE Rank B)
-- 🤖 Passionate about **Agentic AI**, RAG pipelines & Vietnamese NLP
-- 💬 Ask me about **LangChain/LangGraph**, **PhoBERT fine-tuning**, or **multi-intent NLU**
-
----
 
 ## 📄 Publication
 
-> **VSLIM: A Vietnamese Explicit Slot-Intent Mapping for Joint Multi-Intent Detection and Slot Filling**
->
-> Phong Chung, **Kha Le-Minh**, Xuan-Bach Le, Tho Quan · *Accepted at ACIIDS 2026 (CORE Rank B)*
->
-> *HCMUT & UIT – VNU-HCM*
->
-> ![NLP](https://img.shields.io/badge/NLP-Vietnamese-informational?style=flat)
-> ![PhoBERT](https://img.shields.io/badge/PhoBERT-Encoder-orange?style=flat)
-> ![Multi-Intent](https://img.shields.io/badge/Multi--Intent%20Detection-Slot%20Filling-purple?style=flat)
-> ![ACIIDS](https://img.shields.io/badge/ACIIDS%202026-CORE%20Rank%20B-green?style=flat)
->
-> Joint model with **biaffine classifier** on PhoBERT for explicit slot–intent mapping in Vietnamese dialog. Introduced **VPED** — first Vietnamese multi-intent expense corpus. Outperforms AGIF, JointIDSF, MISCA with **+4.5% SeFr Acc** on VPED · [91.30% Intent Acc · 87.23% Slot F1]
+- **VSLIM: A Vietnamese Explicit Slot-Intent Mapping for Joint Multi-Intent Detection and Slot Filling**<br>
+  Phong Chung, **Kha Le-Minh**, Xuan-Bach Le, Tho Quan · Accepted at **ACIIDS 2026 (CORE Rank B)**<br>
+  Introduces explicit slot–intent mapping and the VPED Vietnamese multi-intent expense dataset.
+
+- **[SLIM-IBR: Intent Broadcast Residual for Vietnamese Joint Intent Detection and Slot Filling](https://github.com/DazKha/SLIM-IBR)**<br>
+  **Kha Le-Minh**, Phong Chung · Accepted at **MAPR 2026**<br>
+  Introduces a parameter-efficient residual mechanism that broadcasts utterance-level intent information into token representations for joint NLU.
 
 ---
 
@@ -70,11 +80,12 @@
 
 | Project | Description | Stack |
 |---|---|---|
-| [🤖 GymFlow-Agent](https://github.com/DazKha/GymFlow-Agent) | Tool-calling AI agent with RAG for gym membership, policy Q&A & booking | LangGraph, ChromaDB, FastAPI |
-| [🧠 Vietnamese-Intent-Detection](https://github.com/DazKha/Vietnamese-Intent-Detection) | Intent classification for Vietnamese using PhoBERT | PyTorch, Transformers |
-| [🅿️ Parking Slot Estimator](https://github.com/DazKha/Estimating-Available-Slots-In-Car-Parking-Lots) | CV-based real-time parking slot detection | Python, OpenCV |
-| [🐾 Dog & Cat Face Classification](https://github.com/DazKha/cs231-dog-cat-face-localization-classification) | Deep learning for dog/cat face localization & classification | Python, CV |
-| [📊 Course Quality Monitoring](https://github.com/DazKha/Course-Quality-Monitoring-System) | Academic course quality tracking system | JavaScript |
+| [🤖 GymFlow Agent](https://github.com/DazKha/GymFlow-Agent) | Tool-calling AI agent with RAG for gym membership consultation, policy Q&A, and multi-turn booking. | LangGraph, ChromaDB, FastAPI, Ragas |
+| [💬 VSLIM Expense Chatbot](https://github.com/DazKha/personal-expense-management-chatbot) | Full-stack Vietnamese expense assistant powered by joint multi-intent detection and slot filling. | PhoBERT, FastAPI, React, TypeScript |
+| [🅿️ Parking Slot Estimator](https://github.com/DazKha/Estimating-Available-Slots-In-Car-Parking-Lots) | CNN-based system for real-time parking-slot occupancy estimation from periodic camera snapshots. | Python, PyTorch, OpenCV |
+| [🐾 Dog & Cat Face Classification](https://github.com/DazKha/cs231-dog-cat-face-localization-classification) | Deep-learning approaches for localizing and classifying dog and cat faces in images. | Python, Computer Vision |
+| [📊 Course Quality Monitoring](https://github.com/DazKha/Course-Quality-Monitoring-System) | Early-warning system for predicting online course quality from learner behavioral data. | FastAPI, React, scikit-learn |
+| [👥 People Counting with PySpark & YOLO](https://github.com/DazKha/People-Counting-PySpark-YOLO) | Distributed people-counting pipeline combining large-scale data processing with object detection. | PySpark, YOLO, Python |
 
 ---
 
